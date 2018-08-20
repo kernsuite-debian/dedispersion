@@ -1,0 +1,18 @@
+Source: dedispersion
+Section: science
+Priority: extra
+Maintainer: KERN packaging <packaging@kernsuite.info>
+Build-Depends: cmake,
+ debhelper (>=9),
+ libisautils,
+ nvidia-cuda-toolkit,
+ libisaopencl,
+ astrodata
+Standards-Version: 3.9.8
+Homepage: https://github.com/AA-ALERT/Dedispersion
+
+Package: dedispersion
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Many-core incoherent dedispersion algorithm in OpenCL

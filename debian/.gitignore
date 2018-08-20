@@ -1,0 +1,9 @@
+.debhelper/
+astrodata.debhelper.log
+astrodata.substvars
+astrodata/
+dedispersion.debhelper.log
+dedispersion.substvars
+dedispersion/
+files
+
