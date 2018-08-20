@@ -10,7 +10,8 @@ Build-Depends: cmake,
  libhdf5-dev, 
  astrodata,
  opencl-clhpp-headers,
- opencl-c-headers
+ opencl-c-headers,
+ psrdada,
 Standards-Version: 3.9.8
 Homepage: https://github.com/AA-ALERT/Dedispersion
 
