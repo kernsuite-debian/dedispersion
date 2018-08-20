@@ -7,7 +7,10 @@ Build-Depends: cmake,
  libisautils,
  nvidia-cuda-toolkit,
  libisaopencl,
- astrodata
+ libhdf5-dev, 
+ astrodata,
+ opencl-clhpp-headers,
+ opencl-c-headers
 Standards-Version: 3.9.8
 Homepage: https://github.com/AA-ALERT/Dedispersion
 
